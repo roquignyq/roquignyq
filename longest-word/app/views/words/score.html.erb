@@ -1,0 +1,28 @@
+
+<div class="container wrapper-grey">
+  <h1>Your result</h1>
+  <p>Your word: <strong><%= @guess %></strong></p>
+  <p>Time Taken to answer: <strong><%= @result[:time].round(1) %> sec. </strong> </p>
+  <p>Translation: <strong><%= @result[:translation] %></strong> </p>
+  <p>Your score: <strong><%= @result[:score].round(1) %></strong> </p>
+  <p>Message: <strong><%= @result[:message] %></strong></p>
+  <br>
+  <br>
+
+  <%= link_to "Play again", game_path, { :class=>"button_text" } %>
+</div>
+
+<div class="container">
+  <h2>Your game history</h2>
+  <ul>
+    <li>
+      <% session[:score].map.with_index do |score, index| %>
+      <p>Session n°<%= index %> - Score <%= score %><p>
+      <% end %>
+    </li>
+  </ul>
+
+</div>
+
+
+

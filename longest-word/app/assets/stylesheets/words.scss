@@ -1,0 +1,23 @@
+// Place all the styles related to the words controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  padding: 30px;
+  text-align: center;
+}
+
+.wrapper-grey {
+  background-color: #E6E6E6;
+}
+
+.button_text {
+  // display: block;
+  // width: 100px;
+  // justify-content: center;
+  border: 2px solid black;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+}

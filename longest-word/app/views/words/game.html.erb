@@ -1,0 +1,18 @@
+
+
+<!-- require_relative "longest_word"
+require 'date' -->
+
+<h1>Welcome to the longest word-game !</h1>
+<h2>Here is your grid :</h2>
+<p><%= @grid_print %></p>
+<hr>
+
+<h2>What's your best shot ?"</h2>
+
+<form action="score" method="get">
+  <input type="hidden" name="grid" value="<%= @grid %>">
+  <input type="hidden" name="start_time" value="<%= @start_time %>">
+  <input type="text" name="guess" placeholder="Type your guess">
+  <input type="submit" value="Send!">
+</form>
