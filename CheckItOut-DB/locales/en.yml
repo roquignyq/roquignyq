@@ -1,0 +1,190 @@
+en:
+  activerecord:
+    errors:
+      messages:
+        carrierwave_processing_error: "Cannot resize image."
+        carrierwave_integrity_error: "Not an image."
+        carrierwave_download_error: "Couldn't download image."
+        extension_whitelist_error: "You are not allowed to upload %{extension} files, allowed types: %{allowed_types}"
+        extension_blacklist_error: "You are not allowed to upload %{extension} files, prohibited types: %{prohibited_types}"
+    models:
+      follow_relationship: "Follow relationship"
+      like: "Like"
+      place: "Place"
+      review: "review"
+      signaled_review: "signaled review"
+      user: "User"
+    attributes:
+      follow_relationship:
+        follower: "Follower"
+        followee: "Followee"
+      like:
+        value: "Value"
+      place:
+        name: "Name"
+        address: "Address"
+        phone_number: "Phone number"
+        category: "Category"
+        postal_code: "Postal code"
+        city: "City"
+        country: "Country"
+        full_address: "Full address"
+        latitude: "Latitude"
+        longitude: "Longitude"
+      review:
+        mood: "Mood"
+        number_of_views: "Number of views"
+        number_of_positive_likes: "Number of positive likes"
+        number_of_negative_likes: "Number of negative likes"
+        comment: "Comment"
+      signaled_review:
+        reason: "Reason"
+        status: "Status"
+      users:
+        email: "Email"
+        encrypted_password: "Encrypted password"
+        reset_password_token: "Reset password token"
+        reset_password_sent_at: "Reset password sent at"
+        remember_created_at: "Remember option created at"
+        sign_in_count: "Sign in count"
+        current_sign_in_at: "Current sign in at"
+        last_sign_in_at: "Last sign in at"
+        current_sign_in_ip: "Current sign in IP"
+        last_sign_in_ip: "Last sign in IP"
+        first_name:  "First name"
+        last_name: "Last name"
+        admin: "Administrator"
+        photo: "Photo"
+        number_of_followers: "Number of followers"
+        number_of_followees: "Number of followees"
+        provider: "Provider"
+        uid: "uid"
+        picture: "Image"
+        token: "Token"
+        token_expiry: "Token expiry date"
+        bio: "Bio"
+  follow_relationships:
+    create:
+    destroy:
+  layouts:
+    application:
+  likes:
+    like_button:
+    create:
+    destroy:
+  pages:
+    home:
+      search: "Search"
+      thank_you: "Thank you for visiting"
+      description_html: "We are a <strong><u>mobile only site</u></strong>, please visit us on your mobile device instead."
+  places:
+    show:
+      review:
+        zero: "reviews"
+        one: "review"
+        other: "reviews"
+  reviews:
+    cards_review:
+      follower:
+        zero: "No followers yet"
+        one: "1 follower"
+        other: "%{count} followers"
+      posted_on: "Posted on"
+    cards_review_playing_video:
+      posted_on: "Posted on"
+      message_if_signed_out: "Please, %{link_register} or %{link_sign_in} in to signal this content"
+      register: "register"
+      sign_in: "sign in"
+    cards_review_with_trash:
+      delete: "Delete"
+      delete_confirmation: "Are you sure to delete this video review?"
+    signaled_review_form:
+      signal_content: "Signal this content"
+    index:
+    show:
+      videos_on: "Videos on"
+      posted_on: "Posted on"
+      please: "Please"
+      follower:
+        zero: "followers"
+        one: "follower"
+        other: "followers"
+  search:
+    show:
+      place_message: "Want to go there?"
+      user_message: "We found them"
+      follower:
+        zero: "followers"
+        one: "follower"
+        other: "followers"
+      posted_on: "Posted on"
+  shared:
+    flashes:
+    footer:
+      ask_location: "Where are you?"
+      placeholder_location: "Le Charbon Café, Paris"
+      ask_mood: "Did you like it?"
+      placeholder_mood: "I loved it!"
+    loading:
+    navbar:
+      my_videos: "My videos"
+      my_profile: "My profile"
+      edit_profile: "Edit profile"
+      sign_out: "Log out"
+      sign_in: "Sign in"
+    searchbar:
+      placeholder_searchbar: "Place, address, user..."
+  signaled_reviews:
+      success:
+        success_message: "Thanks! We'll review your signal report and contact you on your email address as soon as possible."
+  users:
+    cards_user_without_follow:
+      follower:
+        zero: "No followers"
+        one: "One follower"
+        other: "%{count} followers"
+    followed_by_user:
+      review:
+        zero: "reviews"
+        one: "review"
+        other: "reviews"
+      follower:
+        zero: "followers"
+        one: "follower"
+        other: "followers"
+    following_user:
+      review:
+        zero: "reviews"
+        one: "review"
+        other: "reviews"
+      follower:
+        zero: "followers"
+        one: "follower"
+        other: "followers"
+    form_follow:
+      follow: "Follow"
+    form_unfollow:
+      unfollow: "Unfollow"
+    user_avatar:
+    user_count_followers_and_followees:
+      follower:
+        zero: "followers"
+        one: "follower"
+        other: "followers"
+      following:
+        zero: "following"
+        one: "following"
+        other: "following"
+    dashboard:
+      i_follow: "I follow"
+      they_love_me: "They love me"
+      followees_suggestions: "Follow them!"
+    myvideos:
+    show:
+      review:
+        zero: "reviews"
+        one: "review"
+        other: "reviews"
+
+
+

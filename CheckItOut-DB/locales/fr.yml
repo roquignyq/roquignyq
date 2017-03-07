@@ -1,0 +1,190 @@
+fr:
+  activerecord:
+    errors:
+      messages:
+        carrierwave_processing_error: "Impossible de redimmensionner l'image."
+        carrierwave_integrity_error: "Ce fichier n'est pas une image."
+        carrierwave_download_error: "Impossible de télécharger l'image."
+        extension_whitelist_error: "Vous n'êtes pas autorisé à télécharger des fichiers %{extension}, utilisez : %{allowed_types}"
+        extension_blacklist_error: "Vous n'êtes pas autorisé à télécharger des fichiers %{extension}, la liste interdite étant : %{prohibited_types}"
+    models:
+      follow_relationship: "Relation followee-follower"
+      like: "Like"
+      place: "Lieu"
+      review: "Revue vidéo"
+      signaled_review: "Revue signalée"
+      user: "Utilisateur"
+    attributes:
+      follow_relationship:
+        follower: "Abonné"
+        followee: "Abonnements"
+      like:
+        value: "Valeur"
+      place:
+        name: "Nom"
+        address: "Adresse"
+        phone_number: "Numéro de téléphone"
+        category: "Catégorie"
+        postal_code: "Code postal"
+        city: "Ville"
+        country: "Pays"
+        full_address: "Adresse complète"
+        latitude: "Latitude"
+        longitude: "Longitude"
+      review:
+        mood: "Avis"
+        number_of_views: "Nombre de vues"
+        number_of_positive_likes: "Nombre de likes positifs"
+        number_of_negative_likes: "Nombre de likes négatifs"
+        comment: "Commentaire"
+      signaled_review:
+        reason: "Motif"
+        status: "Status"
+      users:
+        email: "Email"
+        encrypted_password: "Mot de passe crypté"
+        reset_password_token: "Réinitialisation du mot de passe"
+        reset_password_sent_at: "Réinitialisation du mot de passe envoyé le"
+        remember_created_at: "Option se souvenir de moi envoyée le"
+        sign_in_count: "Compteur de sessions"
+        current_sign_in_at: "Session en cours depuis le"
+        last_sign_in_at: "Dernière session le"
+        current_sign_in_ip: "IP de la session en cours"
+        last_sign_in_ip: "IP de la dernière session"
+        first_name:  "Prénom"
+        last_name: "Nom"
+        admin: "Administrateur"
+        photo: "Photo"
+        number_of_followers: "Nombre d'abonnés"
+        number_of_followees: "Nombre d'abonnements"
+        provider: "Fournisseur"
+        uid: "uid"
+        picture: "Image"
+        token: "Token"
+        token_expiry: "Date d'expiration du token"
+        bio: "Bio"
+  follow_relationships:
+    create:
+    destroy:
+  layouts:
+    application:
+  likes:
+    like_button:
+    create:
+    destroy:
+  pages:
+    home:
+      search: "Recherchez des"
+      thank_you: "Merci pour votre visite"
+      description_html: "Nous sommes un <strong><u>site pour mobile uniquement</u></strong>, merci d'utilisez votre tablette ou smartphone pour vous connecter."
+  places:
+    show:
+      review:
+        zero: "vidéo"
+        one: "vidéo"
+        other: "vidéos"
+  reviews:
+    cards_review:
+      follower:
+        zero: "Aucun abonné"
+        one: "1 abonné"
+        other: "%{count} abonnés"
+      posted_on: "Posté le"
+    cards_review_playing_video:
+      posted_on: "Posted le"
+      message_if_signed_out: "%{link_register} ou %{link_sign_in} pour signaler ce contenu"
+      register: "créez un compte"
+      sign_in: "identifiez-vous"
+    cards_review_with_trash:
+      delete: "supprimer"
+      delete_confirmation: "Etes-vous sûr(e) de vouloir supprimer cette vidéo?"
+    signaled_review_form:
+      signal_content: "Signaler ce contenu"
+    index:
+    show:
+      videos_on: "Vidéos sur"
+      posted_on: "Posté le"
+      please: "S'il-vous-plait"
+      follower:
+        zero: "abonné"
+        one: "abonné"
+        other: "abonnés"
+  search:
+    show:
+      place_message: "Intéressé(e) par ces lieux?"
+      user_message: "Intéressé(e) par ces personnes?"
+      follower:
+        zero: "abonné"
+        one: "abonné"
+        other: "abonnés"
+      posted_on: "Posté le"
+  shared:
+    flashes:
+    footer:
+      ask_location: "De quel lieu faites-vous une vidéo?"
+      placeholder_location: "Le Charbon Café, Paris"
+      ask_mood: "Avez-vous apprécié?"
+      placeholder_mood: "J'ai adoré les plats, moins l'ambiance!"
+    loading:
+    navbar:
+      my_videos: "Mes vidéos"
+      my_profile: "Mon profil"
+      edit_profile: "Editer profil"
+      sign_out: "Se déconnecter"
+      sign_in: "Connexion"
+    searchbar:
+      placeholder_searchbar: "Lieu, adresse, personne..."
+  signaled_reviews:
+    success:
+      success_message: "Merci! Nous prenons connaissance de votre signalement et vous contacterons sur votre adresse email."
+  users:
+    cards_user_without_follow:
+      follower:
+        zero: "Aucun abonné"
+        one: "Un abonné"
+        other: "%{count} abonnés"
+    followed_by_user:
+      review:
+        zero: "vidéo"
+        one: "vidéo"
+        other: "vidéos"
+      follower:
+        zero: "abonné"
+        one: "abonné"
+        other: "abonnés"
+    following_user:
+      review:
+        zero: "vidéo"
+        one: "vidéo"
+        other: "vidéos"
+      follower:
+        zero: "abonné"
+        one: "abonné"
+        other: "abonnés"
+    form_follow:
+      follow: "Suivre"
+    form_unfollow:
+      unfollow: "Se désabonner"
+    user_avatar:
+    user_count_followers_and_followees:
+      follower:
+        zero: "abonné"
+        one: "abonné"
+        other: "abonnés"
+      following:
+        zero: "abonnement"
+        one: "abonnement"
+        other: "abonnements"
+    dashboard:
+      i_follow: "Mes abonnements"
+      they_love_me: "Ils me suivent"
+      followees_suggestions: "Suivez-les !"
+    myvideos:
+    show:
+      review:
+        zero: "vidéo"
+        one: "vidéo"
+        other: "vidéos"
+
+
+
