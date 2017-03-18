@@ -1,0 +1,76 @@
+@media (max-width: @screen-xs) {
+    body {
+      font-size: 10px;
+    }
+}
+
+@media (max-width: @screen-sm) {
+    body {
+      font-size: 14px;
+    }
+}
+
+body {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Helvetica Neue", Helvetica, sans-serif
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: lighter;
+}
+
+header {
+  margin-bottom: -75px;
+  margin-top: 25px;
+}
+
+.fa-heart {
+  color: rgba(228, 30, 155, 1)
+}
+
+.fa-circle {
+  font-size: 0.6em;
+}
+
+#logo-home {
+  width: 30px;
+  margin-top: -10px;
+}
+
+#video-landing {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+#layer-background {
+  position: absolute;
+  z-index: -50;
+  background-color: rgba(0, 0, 0, 0.6);
+  /*transform: translate(-50%, -50%);
+  object-fit: cover;*/
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#text-and-form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 90vh;
+}
+
+#app-store-logo {
+  width: 225px;
+}

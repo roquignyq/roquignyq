@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Check it Out</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <!-- Background video -->
+  <video id="video-landing" class="video" autoplay="autoplay" loop="loop" muted="">
+    <source src="https://s3.amazonaws.com/aws-website-checkitout-jwua9/videos/Salma-background720p.mov" type="video/mp4" />
+  </video>
+
+  <!-- Layer background -->
+  <div id="layer-background">
+  </div>
+
+  <div class="container">
+
+    <header id="header" class="text-center">
+      <h1>
+        <img src="images/logoQ.png" id="logo-home" alt="Check it Out logo"> Check it Out
+      </h1>
+      <h3>Trouve le bon resto <i class="fa fa-circle" aria-hidden="true"></i> En vidéo <i class="fa fa-circle" aria-hidden="true"></i> En 1 minute</h3>
+    </header>
+
+    <!-- The section text-and-form must be vertically centered -->
+    <section id="text-and-form">
+      <div class="col-xs-12 text-center">
+        <h3>
+          INSCRIS-TOI
+        </h3>
+        <h4>Pour être invité sur l'app</h4>
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only">Email</label>
+            <input type="email" class="form-control" placeholder="hello@checkit-out.co">
+          </div>
+          <!-- <div class="form-group">
+            <label class="sr-only">Prénom</label>
+            <input type="text" class="form-control" placeholder="Prénom">
+          </div> -->
+          <button type="submit" class="btn btn-danger">
+            <i class="fa fa-heart-o" aria-hidden="true"></i> Invitez-moi <i class="fa fa-heart-o" aria-hidden="true"></i>
+          </button>
+        </form>
+        <br>
+        <p>Nous ne communiquerons jamais ton adresse</p>
+        <br>
+        <img id="app-store-logo", src="images/app-store-soon.png" alt="Soon on the Apple Store">
+      </div>
+
+
+    </section>
+
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
