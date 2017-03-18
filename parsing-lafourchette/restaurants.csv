@@ -1,18 +1,9 @@
-"resto_name";"resto_mean_price";"resto_mean_rating";"resto_kitchen_rating";"resto_service_rating";"resto_ambiance_rating";"resto_labels_qualiteprix";"resto_labels_niveausonore";"resto_labels_tempsdattente";"resto_tags"
-"daroco";"38";"8,6";"8,2";"8,7";"9,2";"Correct";"Modéré";"Court";"[""Italien"", ""Best of italien"", ""Bistronomique"", ""Omnivore 2017"", ""Bistrot"", ""Branché"", ""Insider"", ""Opéra - Grands Boulevards"", ""Paris - Centre"", ""Paris 2ème"", ""Île-de-France"", ""...""]"
-"resto_name";"resto_mean_price";"resto_mean_rating";"resto_kitchen_rating";"resto_service_rating";"resto_ambiance_rating";"resto_labels_qualiteprix";"resto_labels_niveausonore";"resto_labels_tempsdattente";"resto_tags"
-"daroco";"38";"8,6";"8,2";"8,7";"9,2";"Correct";"Modéré";"Court";"[""Italien"", ""Best of italien"", ""Bistronomique"", ""Omnivore 2017"", ""Bistrot"", ""Branché"", ""Insider"", ""Opéra - Grands Boulevards"", ""Paris - Centre"", ""Paris 2ème"", ""Île-de-France"", ""...""]"
-"resto_name";"resto_mean_price";"resto_mean_rating";"resto_kitchen_rating";"resto_service_rating";"resto_ambiance_rating";"resto_labels_qualiteprix";"resto_labels_niveausonore";"resto_labels_tempsdattente";"resto_tags"
-"daroco";"38";"8,6";"8,2";"8,7";"9,2";"Correct";"Modéré";"Court";"[""Italien"", ""Best of italien"", ""Bistronomique"", ""Omnivore 2017"", ""Bistrot"", ""Branché"", ""Insider"", ""Opéra - Grands Boulevards"", ""Paris - Centre"", ""Paris 2ème"", ""Île-de-France"", ""...""]"
-"resto_name";"resto_mean_price";"resto_mean_rating";"resto_kitchen_rating";"resto_service_rating";"resto_ambiance_rating";"resto_labels_qualiteprix";"resto_labels_niveausonore";"resto_labels_tempsdattente";"resto_tags"
-"stube";"zero pas cher";"7,8";"7,9";"8,1";"7,4";"";"";"";"[""Néerlandais""]"
-"resto_name";"error_message";"resto_mean_price";"resto_mean_rating";"resto_kitchen_rating";"resto_service_rating";"resto_ambiance_rating";"resto_labels_qualiteprix";"resto_labels_niveausonore";"resto_labels_tempsdattente";"resto_tags"
-"resto_name";"error_message";"resto_mean_price";"resto_mean_rating";"resto_kitchen_rating";"resto_service_rating";"resto_ambiance_rating";"resto_labels_qualiteprix";"resto_labels_niveausonore";"resto_labels_tempsdattente";"resto_tags"
-"thaisil";"no error";"32";"8,8";"8,9";"8,9";"8,6";"Intéressant";"Calme";"Court";"[""Thailandais"", ""Best of Asiatique"", ""Bistrot"", ""Insider"", ""Branché"", ""Certificat d'Excellence TripAdvisor 2016"", ""Châtelet - Les Halles - Beaubourg"", ""Opéra - Grands Boulevards"", ""Paris - Centre"", ""Paris 2ème"", ""Plats végétariens"", ""Saint-Valentin"", ""Top 2016 Sentier"", ""Traditionnel"", ""Île-de-France"", ""...""]"
-"pavillon-louvre-rivoli";"Error message from search bar";"zero pas cher";"0";"0";"0";"0";"";"";"";"[]"
-"pho-14-opera";"Error message from search bar";"zero pas cher";"0";"0";"0";"0";"";"";"";"[]"
-"aki-boulanger";"Error message from search bar";"zero pas cher";"0";"0";"0";"0";"";"";"";"[]"
-"ten";"no error";"50";"9,9";"10";"9,6";"9,8";"Correct";"Très calme";"Correct";"[""Gastronomique"", ""Certificat d'Excellence TripAdvisor 2016"", ""Romantique"", ""Assiettes gourmandes MICHELIN 2016"", ""...""]"
-"cafe-kitsune";"Error message from search bar";"zero pas cher";"0";"0";"0";"0";"";"";"";"[]"
-"les-chandelles";"Error message from search bar";"zero pas cher";"0";"0";"0";"0";"";"";"";"[]"
-"le-palais-royal";"no error";"46";"8,8";"8,7";"9,1";"8,9";"Correct";"Calme";"Court";"[""Français"", ""Certificat d'Excellence TripAdvisor 2016"", ""Assiettes gourmandes MICHELIN 2016"", ""Palais Royal"", ""Paris - Centre"", ""Paris 1er"", ""Saint-Valentin"", ""Île-de-France"", ""...""]"
+resto_name;error_message;resto_mean_price;resto_mean_rating;resto_kitchen_rating;resto_service_rating;resto_ambiance_rating;resto_labels_qualiteprix;resto_labels_niveausonore;resto_labels_tempsdattente;resto_tags
+thaisil;no error;32;8,8;8,9;8,9;8,6;Int̩ressant;Calme;Court;"[""Thailandais"", ""Best of Asiatique"", ""Bistrot"", ""Insider"", ""Branch̩"", ""Certificat d'Excellence TripAdvisor 2016"", ""Ch̢telet - Les Halles - Beaubourg"", ""Op̩ra - Grands Boulevards"", ""Paris - Centre"", ""Paris 2̬me"", ""Plats v̩g̩tariens"", ""Saint-Valentin"", ""Top 2016 Sentier"", ""Traditionnel"", ""�_le-de-France"", ""...""]"
+pavillon-louvre-rivoli;Error message from search bar;zero pas cher;0;0;0;0;;;;[]
+pho-14-opera;Error message from search bar;zero pas cher;0;0;0;0;;;;[]
+aki-boulanger;Error message from search bar;zero pas cher;0;0;0;0;;;;[]
+ten;no error;50;9,9;10;9,6;9,8;Correct;Tr̬s calme;Correct;"[""Gastronomique"", ""Certificat d'Excellence TripAdvisor 2016"", ""Romantique"", ""Assiettes gourmandes MICHELIN 2016"", ""...""]"
+cafe-kitsune;Error message from search bar;zero pas cher;0;0;0;0;;;;[]
+les-chandelles;Error message from search bar;zero pas cher;0;0;0;0;;;;[]
+le-palais-royal;no error;46;8,8;8,7;9,1;8,9;Correct;Calme;Court;"[""Fran̤ais"", ""Certificat d'Excellence TripAdvisor 2016"", ""Assiettes gourmandes MICHELIN 2016"", ""Palais Royal"", ""Paris - Centre"", ""Paris 1er"", ""Saint-Valentin"", ""�_le-de-France"", ""...""]"
