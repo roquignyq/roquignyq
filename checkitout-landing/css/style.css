@@ -1,40 +1,72 @@
 @media (max-width: @screen-xs) {
-    body {
-      font-size: 10px;
-    }
+    body{font-size: 10px;}
 }
 
 @media (max-width: @screen-sm) {
-    body {
-      font-size: 14px;
-    }
+    body{font-size: 14px;}
 }
 
 body {
-  color: rgba(255, 255, 255, 0.8);
-  font-family: "Helvetica Neue", Helvetica, sans-serif
+  color: rgba(255, 255, 255, 1);
+  /*font-family: "Helvetica Neue", Helvetica, sans-serif;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-  font-weight: lighter;
+a {
+  text-decoration: none;
 }
 
 header {
-  margin-bottom: -75px;
+  margin-bottom: 30px;
   margin-top: 25px;
+  margin-left: 15px;
+}
+
+.btn {
+  background-color: rgba(218, 17, 104, 1);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  color: white;
 }
 
 .fa-heart {
-  color: rgba(228, 30, 155, 1)
+  color: rgba(255, 255, 255, 1);
 }
 
 .fa-circle {
   font-size: 0.6em;
 }
+#title {
+  font-weight: 200;
+}
+
+/*@media (max-width: @screen-xs) {
+    #tag_line{font-size: 20px;}
+}
+
+@media (max-width: @screen-sm) {
+    #tag_line{font-size: 60px;}
+}*/
+
+#catch-line-area {
+  margin-top: 15%;
+}
+
+#form-area {
+  margin-top: 3%;
+}
+
+#tag_line {
+  font-size: 300%;
+  font-weight: bold;
+}
 
 #logo-home {
   width: 30px;
   margin-top: -10px;
+  margin-right: 10px;
 }
 
 #video-landing {
@@ -54,7 +86,7 @@ header {
 #layer-background {
   position: absolute;
   z-index: -50;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(20, 49, 82, 0.4);
   /*transform: translate(-50%, -50%);
   object-fit: cover;*/
   background-size: cover;
@@ -64,13 +96,112 @@ header {
   left: 0;
 }
 
-#text-and-form {
+.text-and-form {
   justify-content: center;
   align-items: center;
-  display: flex;
-  height: 90vh;
+  margin-top: 15%;
+}
+
+#signup-form {
+  margin-top: 2%;
+}
+
+#email {
+  /*padding-right: 30%;*/
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 85%;
+  margin-left: 10px;
 }
 
 #app-store-logo {
-  width: 225px;
+  width: 110px;
 }
+
+#facebook-button {
+  /*cursor: default;*/
+  width: 30px;
+  padding: 5%;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+#contact_us {
+  color: white;
+}
+
+/*New CSS for form message below the form*/
+   .message {
+      text-decoration: none;
+      -moz-transition: opacity 0.2s ease-in-out, -moz-transform 0.2s ease-in-out;
+      -webkit-transition: opacity 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+      -ms-transition: opacity 0.2s ease-in-out, -ms-transform 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+      -moz-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      padding: 10px;
+      /*height: 1.75em;*/
+      line-height: 1.75em;
+      opacity: 0;
+      margin-top: 2%;
+    }
+
+     .message:before {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-transform: none !important;
+      }
+
+     .message:before {
+        margin-right: 0.5em;
+      }
+
+     .message.visible {
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+      }
+
+     .message.success {
+        height: 100%;
+        display: inline-flex;
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(0, 247, 121,0.6);
+        border-radius: 5px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+       .message.success:before {
+          content: '\f00c';
+        }
+
+     .message.failure {
+        height: 100%;
+        display: inline-flex;
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(252, 45, 100,0.6);
+        border-radius: 5px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+       .message.failure:before {
+          content: '\f119';
+        }
+
+/*End of form message*/
+
+

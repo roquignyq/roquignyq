@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="340px" height="368px" viewBox="0 0 340 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(10.000000, 10.000000)" stroke="#FFFFFF" stroke-width="20">
+            <path d="M80.7420395,1.63483769 C81.3814534,0.731941765 82.7865856,9.93939515e-14 83.893499,9.93939515e-14 L237.589294,9.93939515e-14 C238.690383,9.93939515e-14 240.09832,0.730405393 240.739283,1.63888056 L319.125674,112.740684 C319.764276,113.645813 319.783711,115.126664 319.168101,116.049733 L165.070152,347.109895 C164.454982,348.032304 163.441341,348.047853 162.810574,347.150956 L1.14571361,117.277193 C0.512953457,116.377461 0.522996012,114.909579 1.15776133,114.013247 L80.7420395,1.63483769 Z" id="Path-1"></path>
+            <path d="M85,7 L238.999994,226" id="Line" stroke-linecap="square"></path>
+            <path d="M85.8163266,5 L236.816321,226" id="Line" stroke-linecap="square" transform="translate(161.408163, 115.500000) scale(-1, 1) translate(-161.408163, -115.500000) "></path>
+            <path d="M4.68367347,115.333333 L314.734687,115.333333" id="Line" stroke-linecap="square" transform="translate(159.867347, 112.000000) scale(-1, 1) translate(-159.867347, -112.000000) "></path>
+            <path d="M89.189899,235 L235.189905,235" id="Line" stroke-linecap="square" transform="translate(162.094949, 235.000000) scale(-1, 1) translate(-162.094949, -235.000000) "></path>
+        </g>
+    </g>
+</svg>

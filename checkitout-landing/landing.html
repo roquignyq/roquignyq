@@ -9,64 +9,94 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
 </head>
 
 <body>
   <!-- Background video -->
-  <video id="video-landing" class="video" autoplay="autoplay" loop="loop" muted="">
-    <source src="https://s3.amazonaws.com/aws-website-checkitout-jwua9/videos/Salma-background720p.mov" type="video/mp4" />
-  </video>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="visible-xs-block">
+        <video id="video-landing" class="video" autoplay="autoplay" loop="loop" muted="">
+          <source src="images/Salma-background720p.gif" type="video/mp4" />
+        </video>
+      </div>
+      <div class="hidden-xs">
+        <video id="video-landing" class="video" autoplay="autoplay" loop="loop" muted="">
+          <source src="images/Salma-background720p.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </div>
 
   <!-- Layer background -->
   <div id="layer-background">
   </div>
 
-  <div class="container">
 
-    <header id="header" class="text-center">
-      <h1>
-        <img src="images/logoQ.png" id="logo-home" alt="Check it Out logo"> Check it Out
-      </h1>
-      <h3>Trouve le bon resto <i class="fa fa-circle" aria-hidden="true"></i> En vidéo <i class="fa fa-circle" aria-hidden="true"></i> En 1 minute</h3>
-    </header>
-
-    <!-- The section text-and-form must be vertically centered -->
-    <section id="text-and-form">
+  <header id="header">
+    <h1 id="title">
+      <img src="images/logo-3.svg" id="logo-home" alt="Check it Out logo"> Check it Out
+    </h1>
+  </header>
+  <!-- The section text-and-form must be vertically centered -->
+  <div id="catch-line-area" class="container text-and-form">
+    <div class="row">
       <div class="col-xs-12 text-center">
-        <h3>
-          INSCRIS-TOI
-        </h3>
-        <h4>Pour être invité sur l'app</h4>
-        <form class="form-inline">
-          <div class="form-group">
-            <label class="sr-only">Email</label>
-            <input type="email" class="form-control" placeholder="hello@checkit-out.co">
-          </div>
-          <!-- <div class="form-group">
-            <label class="sr-only">Prénom</label>
-            <input type="text" class="form-control" placeholder="Prénom">
-          </div> -->
-          <button type="submit" class="btn btn-danger">
-            <i class="fa fa-heart-o" aria-hidden="true"></i> Invitez-moi <i class="fa fa-heart-o" aria-hidden="true"></i>
-          </button>
-        </form>
-        <br>
-        <p>Nous ne communiquerons jamais ton adresse</p>
-        <br>
-        <img id="app-store-logo", src="images/app-store-soon.png" alt="Soon on the Apple Store">
+        <div>
+          <h3 id="tag_line">En 1 minute, trouve le bon resto en vidéo</h3>
+        </div>
       </div>
-
-
-    </section>
-
+    </div>
   </div>
+  <div id="form-area" class="container text-and-form">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div>
+          <h3>L'app en exclu : demande ton <strong>invit'</strong> !</h3>
+          <form id="signup-form" class="form-inline" method="post" action="#">
+            <div class="form-group form-group-lg">
+              <label class="sr-only">Email</label>
+              <input id="email" name="email" type="email" class="form-control input-lg" placeholder="hello@mail.com">
+            </div>
+            <button type="submit" class="btn btn-lg">
+              <i class="fa fa-heart" aria-hidden="true"></i> Invite-moi <i class="fa fa-heart" aria-hidden="true"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="col-xs-12">
+      <ul class="list-unstyled list-inline">
+        <li>
+          <a class="copyright-fb" href="http://bit.ly/CheckitOutonFB" class="">
+            <img id="facebook-button" src="images/facebook.png" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a href="mailto:clara@checkit-out.co" id="contact_us">Contact</a>
+        </li>
+        <li>
+          &copy; Check it Out 2017
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="col-xs-12 col-sm-3">
+      <ul class="list-unstyled list-inline pull-right">
+        <li>
+          <img id="app-store-logo", src="images/app-store.png" alt="Available on the Apple Store">
+        </li>
+      </ul>
+    </div> -->
+  </footer>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
